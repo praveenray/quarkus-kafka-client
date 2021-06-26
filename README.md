@@ -2,7 +2,7 @@
 
 This project uses Quarkus and Kafka to read from a CSV file and writes it's JSON representation to a kafka topic.
 
-If you want to learn more about Quarkus, please visit its website: https://quarkus.io/ .
+For more information see [here](https://raypvn.medium.com/a-simple-quarkus-app-with-kafka-and-smallrye-mutiny-97d941140a4b)
 
 ## Running the application in dev mode
 
