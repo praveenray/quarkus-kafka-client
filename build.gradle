@@ -5,6 +5,11 @@ plugins {
 }
 
 
+repositories {
+    mavenCentral()
+    jcenter()
+}
+
 dependencies {
     implementation enforcedPlatform("${quarkusPlatformGroupId}:${quarkusPlatformArtifactId}:${quarkusPlatformVersion}")
     implementation 'io.quarkus:quarkus-kotlin'

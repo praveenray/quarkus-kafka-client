@@ -19,4 +19,4 @@ If you want to learn more about Quarkus, please visit its website: https://quark
     <enter full path to data/sample.csv followed by CTRL+D>
    ```
 - If all goes well, there should be JSON on the output.topic:
-```kafkacat -b <your kafka host:port> -o beginning -e -t output.topic```
+```kafkacat -b localhost:9092 -o beginning -e -t output.topic```
